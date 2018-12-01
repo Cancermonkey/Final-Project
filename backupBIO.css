@@ -1,0 +1,65 @@
+/*
+   New Perspectives on HTML and CSS
+  
+
+   Filename:         bio.css
+   Supporting Files: 
+
+*/
+
+
+body {
+	background-color:rgb(205,213,203);
+}
+
+#liono1 {
+	height:700px;
+	width: 450px;
+	float: right;
+	padding: 5px;
+}
+
+.head {
+	display: block;
+	border: 10px black;
+	border-radius: 10px;
+	background-color: rgb(33,105,45);
+	text-align: center;
+	margin: 3px;
+	width: 100%;
+	position: center;
+	font-size: 35px;
+}
+.nav {
+	display: block;
+	border: 5px black;
+	background-color: rgb(33,105,45);
+	color: rgb(255,165,0);
+	border-radius: 10px;
+	margin: 3px;
+	width: 100%;
+	float: left;
+}
+nav li {
+	color: rgb(255,165,0);
+	list-style-type: serif;
+	margin-top: 15px;
+	margin-bottom: 15px;
+	font-size: 25px;
+}
+nav ul li:hover {
+	background-color: rgb(33,105,45);
+}
+.section1 p {
+	font-size: 25px;
+}
+.section1 {
+	border: 5px black;
+	border-radius: 10px;
+	background-color: rgb(33,105,45);
+	text-indent: 40px;
+	width: 95%;
+	margin: 15px;
+	float: left;
+	padding: 20px;
+}

@@ -1,0 +1,22 @@
+/*
+   New Perspectives on HTML and CSS
+  
+  Author: Richard Henderson
+  Date: 11/27/2018
+  
+   /Filename:         style.css
+   Supporting Files: 
+
+*/
+
+
+li {
+	display: inline;
+}
+
+
+body {
+	background-image:url("america.png");
+	background-repeat: no-repeat;
+	opacity: .65;
+}

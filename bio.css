@@ -1,0 +1,67 @@
+/*
+   New Perspectives on HTML and CSS
+  
+  Author: Richard Henderson
+  Date:11/27/2018
+
+   Filename:         bio.css
+   Supporting Files: 
+
+*/
+
+li {
+	display: inline;
+}
+
+
+body {
+	background-image:url("america.png");
+	background-repeat: no-repeat;
+	opacity: .65;
+}
+
+#liono1 {
+	height:300px;
+	width: 170px;
+	float: right;
+	padding: 5px;
+	position: top-right;
+}
+
+.head {
+	display: block;
+	border: 10px white;
+	text-align: center;
+	margin: 3px;
+	width: 100%;
+	position: center;
+	font-size: 35px;
+}
+.nav {
+	display: horizontal;
+	border: 5px white;
+	margin: 3px;
+	width: 100%;
+	float: left;
+}
+nav li {
+	color: rgb(255,165,0);
+	list-style-type: serif;
+	margin-top: 15px;
+	margin-bottom: 15px;
+	font-size: 25px;
+}
+nav ul li:hover {
+	background-color: rgb(33,105,45);
+}
+.section1 p {
+	font-size: 25px;
+}
+.section1 {
+	border: 5px white;
+	text-indent: 40px;
+	width: 95%;
+	margin: 15px;
+	float: left;
+	padding: 20px;
+}
